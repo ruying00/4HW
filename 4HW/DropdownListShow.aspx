@@ -10,7 +10,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:DropDownList ID="ddl_Area" runat="server" AutoPostBack="True"  Height="28px">
+            </asp:DropDownList>
         </div>
+        <asp:DropDownList ID="ddl_Place" runat="server"  >
+        </asp:DropDownList>
     </form>
 </body>
 </html>
